@@ -1,0 +1,64 @@
+.singlepost{
+  display:flex;
+  flex: 9;
+}
+
+.singlePostWrapper{
+  padding:80px;
+ 
+}
+.singlePostHeader{
+  padding:10px;
+  border-bottom:solid 0.04px lightgray;  
+}
+.singlePostImg{
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  margin-top:30px;
+}
+.singlePostTitle{
+  display:flex;
+  font-family:"Varela Round", Arial, Helvetica, sans-serif;
+  text-align:center;
+  font-size:30px;
+  font-weight:200;
+}
+.singlePostEdit{
+  float:right;
+  display:flex;
+  cursor:pointer;
+  margin-top:10px;
+}
+.singlePostIconEdit{
+  margin-right:10px;
+}
+.singlePostAuthor{
+  display:flex;
+  font-family:"Varela Round", Arial, Helvetica, sans-serif;
+  align-items:flex-start;
+  font-size:15px;
+  font-weight:150;
+  margin-top:10px;
+
+}
+.singlePostDate{
+  display:flex;
+  font-family:"Varela Round", Arial, Helvetica, sans-serif;
+  align-items:flex-start;
+  font-size:15px;
+  font-weight:150;
+  color: #999999;
+  margin-top:5px;
+}
+.singlePostContent{
+  display:flex;
+  font-family:"Varela Round", Arial, Helvetica, sans-serif;
+ justify-content:space-between;
+  font-size:15px;
+  margin-top:6px;
+  color:#26282A;
+  text-align:left;
+  line-Height:20px;
+}
+
