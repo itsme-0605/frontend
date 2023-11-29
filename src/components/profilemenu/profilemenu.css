@@ -1,0 +1,79 @@
+
+.profilemenuContainer{
+  display:flex;
+}
+ul{
+  list-style: none;
+}
+
+a {
+text-decoration:none;
+}
+
+
+.profilemenuImg {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+
+.profilemenuDropdown{
+  position: absolute;
+  top: 55px;
+  right: 85px;
+  background-color:peachpuff;
+  border-radius: 10%;
+  width:140px;
+}
+
+.profilemenuDropdown::before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  background:peachpuff;
+  transform: rotate(45deg);
+}
+
+.profilemenuContent{
+  display: flex;
+  margin: 10px auto;
+}
+.profilemenuDropdown ul li{
+  padding: 5px 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.profilemenuContent a{
+  max-width: 100px;
+  margin-left: 0px;
+  transition: 500ms;
+  color:black;
+}
+.profilemenuContent a:hover{
+color:lightgray;
+}
+.profilemenuDropdown ul li:hover a{
+  cursor: pointer;
+}
+
+
+.profilemenuDropdown.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 500ms ease;
+}
+
+.profilemenuDropdown.inactive{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition:500ms ease;
+}

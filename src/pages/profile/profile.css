@@ -1,0 +1,100 @@
+.profile{
+  display:flex;
+}
+
+.profileWrapper{
+  flex:9;
+  padding :20px;
+}
+
+.profileTitle{
+  display:flex;
+  align-items:center;
+  justify-content:space-between; 
+}
+.profileTitleUpdate{
+  display:flex;
+  font-size:30px;
+}
+
+.profileTitleDelete{
+  display:flex;
+  font-size:12px;
+  border:none;
+  padding:10px;
+  color:white;
+  background-color:lightcoral;
+  border-radius:10px;
+  cursor:pointer;
+}
+.profileTitleDelete:hover{
+  background-color:rgb(255,105,97);
+}
+.profileTitleUpdate{
+  display:flex;
+  font-size:30px;
+  margin-left:40px;
+  
+}
+.profileForm{
+  display:flex;
+  flex-direction:column;
+  padding:40px;
+  background-color:#fff;
+}
+.profilePicture{
+  display:flex;
+  align-items:center;
+  margin-top:10px;
+  
+}
+
+.profilePicture>img{
+  display: flex;
+  width:80px;
+  height:80px;
+  object-fit:cover;
+  border:none;
+  border-radius:50%;
+}
+.profileForm>label{
+  padding:5px;
+}
+.profileIcon{
+  width:25px;
+  height:25px;
+  padding:5px;
+  display:flex;
+  justify-content:center;
+  align-tems:center;
+  border:none;
+  border-radius:50%;
+  margin-left:10px;
+  cursor: pointer;
+}
+.profileIcon:hover{
+  color:gray;
+}
+.profileEnter{
+  padding: 10px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.profileSubmitButton{
+  display:flex;
+  border:none;
+  background-color:teal;
+  color:white;
+  padding:10px;
+  margin-top:20px;
+  border-radius:5px;
+  padding-right:30px;
+  padding-left:30px;
+  cursor:pointer;
+  align-items:center;
+  justify-content:center;
+}
+.profileSubmitButton:hover {
+  background-color: rgb(1, 114, 114);
+}
