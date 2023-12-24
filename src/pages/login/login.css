@@ -7,7 +7,9 @@
   background-color:#FAF9F6;
   
 }
-
+.a{
+  text-decoration:none;
+}
 .loginForm{
   margin-top:20px;
   display:flex;
@@ -43,6 +45,9 @@
   border-radius: 10px;
   text-align: center;
 }
+.loginButton a{
+  color:black;
+}
 .loginRegisterButton{
   display:flex;
   top: 70px;
@@ -56,4 +61,8 @@
   margin-top:20px;
   color: white;
   border-radius: 10px;
+}
+
+.loginRegisterButton a{
+  color:white;
 }

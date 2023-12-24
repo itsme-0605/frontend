@@ -10,6 +10,10 @@
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
 }
+
+a {
+text-decoration:none;
+}
 .topLeft,.topRight{
   flex: 2;
   display: flex;
@@ -48,8 +52,22 @@
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
+  text-decoration:none;
+}
+.topListItem a{
+  max-width: 100px;
+  margin-left: 0px;
+  transition: 500ms;
+  color:black;
+}
+.topListItem a:hover{
+color:gray;
 }
 
+
+.topListItem:hover{
+    color: gray;
+}
 .topListItem:hover{
     color: gray;
 }

@@ -30,9 +30,9 @@ export default function Profilemenu(){
       <div className={`profilemenuDropdown  ${open? 'active' : 'inactive'}`}>
         <ul>
           <li className="profilemenuContent">
-            <a href="#">Profile</a></li>
+            <a href="profile">Profile</a></li>
           <li className="profilemenuContent">
-            <a href="#">Logout</a></li>
+            <a href="login">Logout</a></li>
           <li className="profilemenuContent">
             <a href="#">Your Blog</a></li>
         </ul>

@@ -1,5 +1,7 @@
 import "./topbar.css";
 import Profilemenu from "../profilemenu/profilemenu";
+import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Topbar(){
   return (
@@ -10,11 +12,11 @@ export default function Topbar(){
       </div>
       <div className="topCenter">
         <ul className="topList">
-        <li className="topListItem">Home</li>
+        <li className="topListItem"><a href="/">Home</a></li>
         <li className="topListItem">SkinCare</li>
         <li className="topListItem">HairCare</li>
         <li className="topListItem">Ask Expert</li>
-        <li className="topListItem">Write</li>
+        <li className="topListItem"><Link to="/write">Write</Link></li>
         </ul>
         </div>
       <div className="topRight">         

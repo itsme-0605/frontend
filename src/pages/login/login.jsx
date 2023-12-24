@@ -10,9 +10,9 @@ export default function Login(){
       <input type="text" className="loginInput" placeholder="Enter your email.."/> 
        <label>Password</label>
        <input type="text" className="loginInput" placeholder="Enter your password.."/> 
-       <button className="loginButton">Login</button>
+       <button className="loginButton"><a href="/">Login</a></button>
      </form>
-      <button className="loginRegisterButton">Register</button>
+      <button className="loginRegisterButton"><a href="/register">Register</a></button>
     </div> 
   );
 }

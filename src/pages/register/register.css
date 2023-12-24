@@ -43,6 +43,9 @@
   border-radius: 10px;
   text-align: center;
 }
+.registerButton a{
+  color:black;
+}
 .registerLoginButton{
   display:flex;
   top: 70px;
@@ -56,4 +59,7 @@
   margin-top:20px;
   color: white;
   border-radius: 10px;
+}
+.registerLoginButton a{
+  color:white;
 }
